@@ -62,3 +62,31 @@ a= 20;
 b=30;
 c=a+b;
 console.log("The sum of " +  a + " and " + b +  " is " + c );
+
+let arr= [10,"hero"];
+console.log(typeof arr); //object nai ho array vanda pani
+
+ //strings
+
+ let str= "Rolex"
+ console.log(str[3])
+
+ //non primitive data types are mutable
+ let arr2=[10,20,50,80];
+ arr2.push(90);
+ console.log(arr2);
+
+//see
+ let a1= 10;
+ let b1=a;
+ b1=20;
+ console.log(a1,b1);
+
+ //object
+ let objj= {
+    namee: "Ram",
+    agee:30
+ }
+ let objj2=objj;
+ objj2.namee="shyam";
+ console.log(objj);
